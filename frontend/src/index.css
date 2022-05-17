@@ -1,0 +1,30 @@
+body {
+  /* background-image: url("https://images.unsplash.com/photo-1596176530529-78163a4f7af2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVuZ2FsdXJ1fGVufDB8fDB8fA%3D%3D&w=1000&q=80"); */
+  background-image: url("https://i.pinimg.com/originals/da/40/4b/da404bf7bd4398c9f256c65507d3c860.jpg");
+ }
+
+.todo-title {
+  cursor: pointer;
+  }
+  .completed-todo {
+  text-decoration: line-through;
+  }
+  .tab-list > span {
+  padding: 5px 8px;
+  border: 1px solid rgb(7, 167, 68);
+  border-radius: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  }
+  .tab-list > span.active {
+  background-color: rgb(6, 139, 12);
+  color: #fff;
+  }
+  
+  main.content  h1{
+    color: red;
+}
+
+h1.text-success.text-uppercase.text-center.my-4 {
+  color: rgb(205, 149, 241) !important;
+}
